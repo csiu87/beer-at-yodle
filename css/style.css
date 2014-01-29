@@ -1,0 +1,300 @@
+body
+{
+background-color: white;
+/*background-image: url('http://3.bp.blogspot.com/-zAowRcsjDFI/Tg_E0aFkYFI/AAAAAAAANNQ/5oxG7JdBeTg/s1600/oldpaper-backgroundfairy.jpg');
+background-image: fixed;*/
+}
+
+.wrapper {
+  margin: auto 0;
+}
+
+/*Timer Styles*/
+
+.timer-body {
+  background-color: black;
+  color: white;
+  font-size: 200px;
+  font-family:Courier;
+}
+
+#timer {
+  font-size: 100px;
+  position: relative;
+  top: 380px;
+  text-align: center;
+}
+
+.timer-quotes {
+  font-size: 20px;
+  font-family: Lucida; 
+  font-style: italic;
+  position: absolute; 
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+}
+
+/*What's on Tap Styles*/
+
+.flexslider img{
+  max-height: 554px;
+  max-width: 940px;
+  background-size: cover;
+}
+
+.flexslider p {
+  font-size: 16px;
+  text-align: justify;
+  padding: 20px;
+}
+
+.nav {
+  margin-right: 150px;
+}
+
+.nav ul li {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+}
+
+.nav a {
+  color: #999;
+  line-height: 30px; 
+  text-decoration: none;
+}
+
+div.container {
+	font-family: Courier; 
+}
+
+.brewery-description {
+  font-style: italic;
+}
+
+.button {
+	display: inline-block;
+	text-align: center; 
+  float: right;
+	font-size: 24px;
+  width: 14%;
+}
+
+div.beer-header {
+  text-align: center;
+  margin-top: 50px;
+}
+
+div.beer-header img {
+  height: 250px;
+}
+
+hr {
+  border-width: 1px;
+  border-color: black;
+}
+
+p {
+	text-align: justify;
+}
+
+div.brewery-header {
+  text-align:center;
+}
+
+div.brewery-header img {
+  height: 250px;
+}
+
+h3 {
+	font-size: 26px;
+}
+
+h5 {
+	font-size: 16px;
+}
+
+div.dates {
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+div.right {
+  text-align: right;
+}
+
+div.beer-stats {
+	right: 0;
+}
+
+div.beer-description {
+	margin-top: 16px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0px;
+  width: 95%;
+  padding: 0 20px;
+  background-color: white;  
+}
+
+.footer ul {
+    text-align: center;
+}
+
+.footer ul li {
+    display: inline;
+    text-align: center;
+}
+
+/* Reviews Page CSS*/
+
+.form-container {
+  background-color: white;
+}
+
+.form-wrapper {
+  background: #eee;  
+  margin: 50px 190px; 
+  position: relative;
+  top: 50px; 
+  padding: 30px;
+  font-family: Courier;
+  /*width: 800px;*/
+}
+
+#id_message {
+  width: 95%;
+}
+
+.required {
+  color: red;
+}
+
+label {
+  font-size: 16px;
+}
+
+input {
+  font-family: Courier;
+}
+
+textarea {
+  font-family: Courier;
+}
+
+.submit-button {
+  font-weight: 700; 
+  letter-spacing: 2px; 
+  font-size: 14px; 
+  text-transform: uppercase; 
+  color: white;
+  background-color: #e8554e;
+  border-bottom: 5px solid #9a3834;
+  padding: 8px 35px;
+}
+
+.comment-wrapper {
+  position: relative;
+  margin: 50px;
+}
+
+.comment-box {
+    background: #eee;
+    margin: 30px 190px;
+    padding: 30px;
+    font-family: Courier; 
+    position: relative;
+    border: solid 1px #54baff;
+    width: 570px;
+    top: 100px;
+  }
+
+/*archive-new*/
+
+.circle-wrapper {
+  margin: 0 auto;
+  padding: 100px;
+  width: 100%;
+}
+
+.circle-container {
+  width: 100%;
+  margin: 0 auto;
+  display: block; 
+}
+
+.circle1 {
+  background: #444;
+  border: 3px solid #ddd;
+  border-radius: 180px; 
+  width: 180px;
+  height: 180px;
+  padding: 3em;
+  color: white; 
+  opacity: .2; 
+  float: left;
+  font-style: italic; 
+  font-size: 16px;
+  line-height: 32px; 
+  text-align: center; 
+  margin: 10px; 
+  transition: all .4s ease-in-out;
+}
+
+.circle1 p {
+  text-decoration: none; 
+  color: white;
+  font-size: 30px;
+  margin: 0 auto;
+  padding-top: 25%;
+  text-align: center;
+  font-family: Lucida; 
+}
+
+.circle1:hover { 
+  background-color: #444; 
+  opacity: 1;
+  background-image: url('../images/allagash.jpg');
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+}
+
+.circle1:hover p {
+visibility: hidden; 
+}
+
+.beer-image {
+max-width: 90%;
+max-height: 80%;
+margin: 0px 20px;
+padding: 10px 20px;
+}
+
+.modal-title {
+  text-align: center;
+  font-family: Courier;
+  text-transform: uppercase;
+}
+
+.modal-body p {
+margin: 20px 20px;
+}
+
+/*#popup{
+  position:absolute;
+  width:600px;
+  height:50px;
+  background:#fff;
+  left:50%;
+  top:50%;
+  border-radius:5px;
+  padding:60px 0;
+  margin-left:-320px; 
+  margin-top:-150px; 
+  text-align:center;
+  box-shadow:0 0 10px 0 #000;
+}*/

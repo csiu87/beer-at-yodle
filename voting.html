@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>On Tap At Yodle</title>
+<!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link rel="shortcut icon" href="images/favicon.png">
+</head>
+<body>
+
+<div class="wrapper">
+
+   <nav class="nav">
+     <ul class="wrapper">
+        <li class="button"><a href="index.html">WHAT'S ON TAP</a></li>
+        <li class="button"><a href="reviews.html">REVIEWS</a></li>
+        <li class="button"><a href="">VOTING</a></li>
+      </ul>
+    </nav>
+
+
+<div class="circle-wrapper">
+  <div class="circle-container">
+    <div class="circle1" style="cursor:pointer" data-toggle="modal" data-target="#SamAdamsWinterLager"><p>Sam Adams Winter Lager</p>
+    </div>
+    <div class="circle1" style="cursor:pointer" data-toggle="modal" data-target="#OmmegangHennepin"><p>Ommegang Hennepin</p>
+    </div>
+    <div class="circle1" style="cursor:pointer" data-toggle="modal" data-target="#myModal"><p>Blue Moon Belgian White</p>
+    </div>
+    <div class="circle1" style="cursor:pointer" data-toggle="modal" data-target="#myModal"><p>Greenpoint Harbor Black Duck Porter</p>
+    </div>
+    <div class="circle1" style="cursor:pointer"data-toggle="modal" data-target="#myModal"><p>Bronx Pale Ale</p>
+    </div>
+    <div class="circle1" style="cursor:pointer" data-toggle="modal" data-target="#myModal"><p>Smuttynose IPA</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- Sam Adams Winter Lager -->
+<div class="modal fade" id="SamAdamsWinterLager" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Sam Adams Winter Lager</h4>
+      </div>
+      <div class="modal-body">
+        <img class="beer-image" src="images/samadamswinterlager.jpg"/>
+        <p>Bold and rich, with a touch of holiday spice. The first thing one notices about a Samuel Adams® Winter Lager is the deep ruby color. Then comes the magical aroma which promises something special on the tongue. The cinnamon, ginger, and hint of citrus from the orange peel blend with the roasty sweetness of the malts to deliver a warming, spicy flavor. On the palate Samuel Adams Winter Lager is rich and full bodied, robust and warming, a wonderful way to enjoy the cold evenings that come with the season.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" data-toggle="modal" data-target="#OmmegangHennepin" class="btn btn-primary">Next</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+
+<!-- Ommegang Hennepin -->
+<div class="modal fade" id="OmmegangHennepin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Ommegang Hennepin</h4>
+      </div>
+      <div class="modal-body">This hoppy, farmhouse style ale has a champagne like effervescence with a crisp but light on the tongue finish. Similar to the Belgian Saison style , this beer serves well as an aperitif. Hennepin has a majestic golden hue. The style is called Grisette or farm house and is considered to be in the domain of the Belgian Saisons.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<footer class="footer">
+  <div class="wrapper">
+    <ul>
+      <li><a href="https://www.facebook.com/yodle"><img src="images/facebook.png"/></a>|</li>
+      <li><a href="https://twitter.com/yodle"><img src="images/twitter_bird.png"/></a>|</li>
+      <li><a href="http://www.linkedin.com/company/yodle"><img src="images/linkedin.png"/></a></li>
+    </ul>
+  </div>
+</footer>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
