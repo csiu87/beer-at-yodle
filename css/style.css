@@ -51,6 +51,11 @@ background-image: fixed;*/
 
 .nav {
   margin-right: 150px;
+  margin-top: 20px;
+}
+
+.nav ul {
+  float: right;
 }
 
 .nav ul li {
@@ -66,20 +71,20 @@ background-image: fixed;*/
   text-decoration: none;
 }
 
+.button {
+  display: block;
+  text-align: center; 
+/*  float: right;*/
+  font-size: 24px;
+  padding-right: 2em; 
+}
+
 div.container {
 	font-family: Courier; 
 }
 
 .brewery-description {
   font-style: italic;
-}
-
-.button {
-	display: inline-block;
-	text-align: center; 
-  float: right;
-	font-size: 24px;
-  width: 14%;
 }
 
 div.beer-header {
@@ -213,77 +218,7 @@ textarea {
     top: 100px;
   }
 
-/*archive-new*/
-
-.circle-wrapper {
-  margin: 0 auto;
-  padding: 100px;
-  width: 100%;
-}
-
-.circle-container {
-  width: 100%;
-  margin: 0 auto;
-  display: block; 
-}
-
-.circle1 {
-  background: #444;
-  border: 3px solid #ddd;
-  border-radius: 180px; 
-  width: 180px;
-  height: 180px;
-  padding: 3em;
-  color: white; 
-  opacity: .2; 
-  float: left;
-  font-style: italic; 
-  font-size: 16px;
-  line-height: 32px; 
-  text-align: center; 
-  margin: 10px; 
-  transition: all .4s ease-in-out;
-}
-
-.circle1 p {
-  text-decoration: none; 
-  color: white;
-  font-size: 30px;
-  margin: 0 auto;
-  padding-top: 25%;
-  text-align: center;
-  font-family: Lucida; 
-}
-
-.circle1:hover { 
-  background-color: #444; 
-  opacity: 1;
-  background-image: url('../images/allagash.jpg');
-  filter: gray;
-  -webkit-filter: grayscale(100%);
-}
-
-.circle1:hover p {
-visibility: hidden; 
-}
-
-.beer-image {
-max-width: 90%;
-max-height: 80%;
-margin: 0px 20px;
-padding: 10px 20px;
-}
-
-.modal-title {
-  text-align: center;
-  font-family: Courier;
-  text-transform: uppercase;
-}
-
-.modal-body p {
-margin: 20px 20px;
-}
-
+  
 /*#popup{
   position:absolute;
   width:600px;

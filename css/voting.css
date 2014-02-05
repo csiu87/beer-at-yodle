@@ -1,0 +1,94 @@
+.nav {
+  position: fixed;
+  margin-top: 0px;
+  padding-top: 15px; 
+  z-index: 999;
+  right: 0;
+  background-color: black;
+  width: 100%;
+  opacity: .5;
+  font-size: 5px;
+}
+
+.nav ul {
+  float: right;
+}
+
+.nav ul li {
+  display: inline-block;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+.nav ul li {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: lighter;
+  letter-spacing: 3px;
+}
+
+.nav a {
+  color: white;
+  line-height: 30px; 
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.button {
+  display: block;
+  text-align: center; 
+  font-size: 24px;
+  padding-right: 2em; 
+}
+
+.voting {
+  position: relative;
+  cursor:pointer;
+  float: left;
+  width: 33.3%;
+  height: 825px;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+}
+
+.voting:hover {
+  filter: gray;
+  -webkit-filter: grayscale(0%);
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+
+.voting p {
+  text-decoration: none; 
+  font-size: 40px;
+  text-align: center;
+  font-family: Copperplate;
+  position: absolute;
+  top: 40%; 
+  left: 15%;
+  visibility: hidden;
+}
+
+.voting:hover p {
+  visibility: visible;
+}
+
+#voting1 {
+  background-image: url('../images/voting1.jpg');
+}
+
+#voting2 {
+  background-image: url('../images/voting2.jpg');
+}
+
+#voting3 {
+  background-image: url('../images/voting3.jpg');
+
+
+
+
+
+}

@@ -1,0 +1,297 @@
+.brewery-body  { 
+  background: #000 url("../images/brewery4.jpg") top center no-repeat fixed;
+  background-size: cover;
+  background-position: fixed;
+}
+
+.archive-body  { 
+  background: #000 url("../images/beer.jpg") top center no-repeat fixed;
+  background-size: cover;
+  background-position: fixed;
+}
+
+.nav {
+  position: fixed;
+  margin-top: 0px;
+  padding-top: 15px; 
+  z-index: 999;
+  right: 0;
+  background-color: black;
+  width: 100%;
+  opacity: .4;
+  font-size: 5px;
+}
+
+.nav ul {
+  float: right;
+}
+
+.nav ul li {
+  display: inline-block;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+.nav ul li {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: lighter;
+  letter-spacing: 3px;
+}
+
+.nav a {
+  color: white;
+  line-height: 30px; 
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.button {
+  display: block;
+  text-align: center; 
+  font-size: 24px;
+  padding-right: 2em; 
+}
+
+.beer-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 80%;
+}
+
+.circle-wrapper {
+  margin: 100px 100px 100px;
+}
+
+.modal-title {
+  text-align: center;
+  font-family: Courier;
+  text-transform: uppercase;
+}
+
+.modal-body p {
+  margin: 20px 20px;
+}
+
+/*beers*/
+.circle1 {
+  background: #3A5919;
+  border: 3px solid #ddd;
+  border-radius: 180px; 
+  width: 180px;
+  height: 180px;
+  padding: 3em;
+  color: white; 
+  opacity: .7; 
+  float: left;
+  font-size: 16px;
+  line-height: 32px; 
+  text-align: center; 
+  margin: 10px; 
+  transition: all .4s ease-in-out;
+  cursor:pointer;
+}
+
+.circle1 p {
+  text-decoration: none; 
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  font-family: Copperplate; 
+  display: table-cell; 
+  height: 180px; 
+  vertical-align: middle;
+}
+
+.circle1:hover {
+  background-color: #444; 
+  opacity: 1;
+  background-size: cover;
+  background-position: center;
+  filter: gray;
+  -webkit-filter: grayscale(0%);
+}
+
+.circle1:hover p {
+  visibility: hidden; 
+}
+
+
+/*brewery*/
+.circle2 {
+  background: #800000;
+  border: 3px solid #ddd;
+/*  border-radius: 180px; */
+  width: 160px;
+  height: 160px;
+  padding: 3em;
+  color: white; 
+  opacity: .7; 
+  float: left;
+  font-size: 16px;
+  line-height: 32px; 
+  text-align: center; 
+  margin: 24px; 
+  transition: all .4s ease-in-out;
+  cursor:pointer;
+}
+
+.circle2 p {
+  text-decoration: none; 
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  font-family: Copperplate; 
+   display: table-cell; 
+   height: 180px; 
+   vertical-align: middle;
+}
+
+.circle2:hover {
+  background-color: #444; 
+  opacity: 1;
+  background-size: cover;
+  background-position: center;
+  filter: gray;
+  -webkit-filter: grayscale(0%);
+}
+
+.circle2:hover p {
+  visibility: hidden; 
+}
+
+
+/*beers*/
+#bluepointtoastedlager:hover { 
+  background-image: url('../images/bluepoint-toastedlager.jpg');
+}
+
+#sierranevadapaleale:hover { 
+  background-image: url('../images/sierranevada-paleale.jpg');
+}
+
+#samadamswinterlager:hover { 
+  background-image: url('../images/samadams-winterlager.jpg');
+}
+
+#bluemoonbelgianwhite:hover { 
+  background-image: url('../images/bluemoon-belgianwhite.jpeg');
+}
+
+#smuttynosepumpkinale:hover { 
+  background-image: url('../images/smuttynose-pumpkin.jpg');
+}
+
+#ballastpointblackeye:hover { 
+  background-image: url('../images/ballastpoint.png');
+}
+
+#greenpointharborblackduckporter:hover { 
+  background-image: url('../images/greenpointharbor.png');
+}
+
+#bronxpaleale:hover { 
+  background-image: url('../images/bronx-paleale.png');
+}
+
+#smuttynoseipa:hover { 
+  background-image: url('../images/smuttynose-ipa.jpg');
+}
+
+#allagashblack:hover { 
+  background-image: url('../images/allagash-black.jpg');
+}
+
+#sixpointbrownstone:hover { 
+  background-image: url('../images/sixpoint-brownstone.jpeg');
+}
+
+#flyingdoggonzo:hover { 
+  background-image: url('../images/flyingdog-gonzo.jpg');
+}
+
+#sixpointdieselstout:hover { 
+  background-image: url('../images/sixpoint-diesel.jpg');
+}
+
+#ommegangwhite:hover { 
+  background-image: url('../images/ommegang-white.gif');
+}
+
+#allagashwhite:hover { 
+  background-image: url('../images/allagash-white.png');
+}
+
+#sixpointthecrisp:hover { 
+  background-image: url('../images/sixpoint-thecrisp.gif');
+}
+
+#ommeganghennepin:hover { 
+  background-image: url('../images/ommegang-hennepin.jpg');
+}
+
+#allagashdubbel:hover { 
+  background-image: url('../images/allagash-dubbel.png');
+}
+
+#samadamsoctoberfest:hover { 
+  background-image: url('../images/samadams-octoberfest.png');
+}
+
+
+/*breweries*/
+#bluepoint:hover { 
+  background-image: url('../images/bluepoint.jpg');
+}
+
+#sierranevada:hover { 
+  background-image: url('../images/sierranevada.jpg');
+}
+
+#samadams:hover { 
+  background-image: url('../images/samadams.jpg');
+}
+
+#bluemoon:hover { 
+  background-image: url('../images/bluemoon.jpg');
+}
+
+#smuttynose:hover { 
+  background-image: url('../images/smuttynose.gif');
+}
+
+#ballastpoint:hover { 
+  background-image: url('../images/ballastpoint.png');
+}
+
+#greenpointharbor:hover { 
+  background-image: url('../images/greenpointharbor.png');
+}
+
+#bronx:hover { 
+  background-image: url('../images/bronx.png');
+}
+
+#allagash:hover { 
+  background-image: url('../images/allagash.jpg');
+}
+
+#sixpoint:hover { 
+  background-image: url('../images/sixpoint.jpg');
+}
+
+#flyingdog:hover { 
+  background-image: url('../images/flyingdog.jpeg');
+}
+
+#ommegang:hover { 
+  background-image: url('../images/ommegang.jpg');
+}
+
+
+
+
+
+
+

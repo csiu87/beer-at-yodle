@@ -1,0 +1,54 @@
+body {
+  background-color: black;
+  color: white;
+  font-size: 200px;
+  font-family:Courier;
+}
+
+.age-body {
+  color: black;
+  font-size: 30px;
+  padding: 50px;
+  padding-bottom: 27px;
+  text-align: center;
+  font-family: Copperplate;
+  /*background-image: url("../images/old_map.png");*/
+}
+
+#timer {
+  font-size: 100px;
+  position: relative;
+  top: 380px;
+  text-align: center;
+}
+
+.timer-quotes {
+  font-size: 20px;
+  font-family: Lucida; 
+  font-style: italic;
+  position: absolute; 
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+}
+
+.age-button {
+  padding: 20px;
+}
+
+
+  
+/*#popup{
+  position:absolute;
+  width:600px;
+  height:50px;
+  background:#fff;
+  left:50%;
+  top:50%;
+  border-radius:5px;
+  padding:60px 0;
+  margin-left:-320px; 
+  margin-top:-150px; 
+  text-align:center;
+  box-shadow:0 0 10px 0 #000;
+}*/
