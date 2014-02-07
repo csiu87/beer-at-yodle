@@ -5,7 +5,7 @@ $(document).ready(function(){
     });
 
     $('.card').click(function(evt) {
-    	$(this).toggleClass("flipped");
+    	$(this).toggleClass("flip");
     });
 });
 
