@@ -3,5 +3,9 @@ $(document).ready(function(){
         var next = $(evt.target).data('target');
         $(next).modal('show');
     });
+
+    $('.card').click(function(evt) {
+    	$(this).toggleClass("flipped");
+    });
 });
 
