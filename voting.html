@@ -8,8 +8,6 @@
 <link rel="shortcut icon" href="images/favicon.png">
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
-<script src="js/date.js"></script>
-<script src="js/timer.js"></script>
 </head>
 
 <body>
@@ -19,7 +17,7 @@
      <ul class="wrapper">
         <li class="button"><a href="whatsontap.html">WHAT'S ON TAP</a></li>
         <li class="button"><a href="beer.html">BEERS</a></li>
-        <li class="button"><a href="brewery.html">BREWERIES</a></li>
+        <li class="button"><a href="nicknames.html">NICKNAMES</a></li>
         <li class="button"><a href="">VOTING</a></li>
       </ul>
     </nav>
@@ -28,38 +26,96 @@
 <section class="whatsontap">
     <div class="voting">
         <div class="card">
-            <div class="front gray voting" id="voting1">
-                <p class="hover">BEER #1</p>
+            <div class="front gray voting" id="front1">
+                <h3 class="hover">LAGUNITAS SUCKS</h3>
             </div>
-            <div class="back">
-                <p>Abita Amber</p>
+            <div class="back" id="back1">
+              <div class="beer-container">
+                <div class="beer-header">
+                  <img src="images/lagunitas-sucks.jpg"/>
+                  <h4><span>Brown Shugga' substitute</span></h4> 
+                </div>
+                 <div class="beer-description"><p>This beer originates from a popular brew usually available from Lagunitas called Brown Shugga. Brown Shugga itself was actually a happy mistake – it started as a failed attempt to brew a batch of beer that Lagunitas then attempted to save by adding large amounts of brown sugar. Low and behold it became a case of serendipity indeed!</p> 
+                </div>
+                <div class="beer-stats">
+                  <div class="beer-style">
+                    <span>Style:</span> American Double/Imperial IPA
+                  </div>
+                  <div class="beer-style">
+                    <span>ABV:</span> 7.85%
+                  </div>
+                </div>
+                <div class="vote-button">
+                  <input class="submit-button" type="button" value="VOTE" onclick="myFunction()">
+                </div>
+              </div>
+            </div> <!-- back class -->
+        </div> <!-- card class -->
+    </div> <!-- voting class -->
+
+    <div class="voting">
+        <div class="card">
+            <div class="front gray voting" id="front2">
+                <h3 class="hover">ABITA</h3>
+            </div>
+            <div class="back" id="back2">
+
+              <div class="beer-container">
+                <div class="beer-header">
+                  <img src="images/abita-amber.jpg"/>
+                  <h4><span>Amber</span></h4> 
+                </div>
+                 <div class="beer-description"> <p>Amber is a Munich style lager brewed with pale and caramel malts and German Perle hops. It has a smooth, malty, slightly caramel flavor and a rich amber color. Abita Amber was the first beer offered by the brewery and continues to be our leading seller. Amber is Abita's most versatile beer for pairing with food. It has been voted "best beer" in numerous New Orleans reader polls and is used frequently in recipes of great Louisiana chefs.</p> 
+                </div>
+                <div class="beer-stats">
+                  <div class="beer-style">
+                    <span>Style:</span> Vienna Lager
+                  </div>
+                  <div class="beer-style">
+                    <span>ABV:</span> 4.50%
+                  </div>
+                </div>
+                <div class="vote-button">
+                  <input class="submit-button" type="button" value="VOTE" onclick="myFunction()">
+                </div>
+              </div>
+
             </div>
         </div>
     </div>
     <div class="voting">
         <div class="card">
-            <div class="front gray voting" id="voting2">
-                <p class="hover">BEER #1</p>
+            <div class="front gray voting" id="front3">
+                <h3 class="hover">SOUTHERN TIER</h3>
             </div>
-            <div class="back">
-                <p>Abita Amber</p>
-            </div>
-        </div>
-    </div>
-    <div class="voting">
-        <div class="card">
-            <div class="front gray voting" id="voting3">
-                <p class="hover">BEER #1</p>
-            </div>
-            <div class="back">
-                <p>Abita Amber</p>
+            <div class="back" id="back3">
+                
+              <div class="beer-container">
+                <div class="beer-header">
+                  <img src="images/southerntier-pumpking.jpg"/>
+                  <h4><span>Pumpking</span></h4> 
+                </div>
+                 <div class="beer-description"> <p>Brewed in the spirit of All Hallows Eve, a time of the year when spirits can make contact with the physical world and when magic is most potent. Pour Pumking into a goblet and allow it's alluring spirit to overflow. As spicy aromas present themselves, let it’s deep copper color entrance you as your journey into this mystical brew has just begun. As the first drops touch your tongue a magical spell will bewitch your taste buds making it difficult to escape the Pumking.</p> 
+                </div>
+                <div class="beer-stats">
+                  <div class="beer-style">
+                    <span>Style:</span> Pumpkin Ale
+                  </div>
+                  <div class="beer-style">
+                    <span>ABV:</span> 8.60%
+                  </div>
+                </div>
+                <div class="vote-button">
+                  <input class="submit-button" type="button" value="VOTE" onclick="myFunction()">
+                </div>
+              </div>
             </div>
         </div>
     </div>
 
 </section>
 
-
 <script src="js/voting.js"></script>
+
 </body>
 </html>

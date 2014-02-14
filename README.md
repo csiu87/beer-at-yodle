@@ -5,9 +5,7 @@
 - make code responsive 
 
 <!-- timer -->
-- orange circle around timer to be button says press me
-- 21 age prompt
-
+- style old digital clock
 
 
 <!-- archive page -->
@@ -59,5 +57,34 @@ Brewery Order
 11) Flying Dog
 12) Ommengang
 
+
+
+Nicknames 
+
+John Herman - Dr Evil
+Isaac - Mini Me
+Cindy - Latenight
+Jodi - UPS
+Ian - Zagat
+Chris - Big Mac
+Malvin - Ox
+Niket - Panda
+Arnold - Kojack 
+Dennis - Mr. Incredible 
+Abhay - Beast
+Melinda - Mel-Invoice
+Ryan - T-Bone
+Alina - Mother Russia
+Laura - Princess
+Terrance - Finished. Thanks
+Mike - Flash
+Michael G - MG
+Greg - Michigan Mom
+Leonzo - Mr. Rogers
+Dave McCarthy - Run DMC
+Fawad - Batman
+Arpan - Flip Flops
+Ruth - Koko
+Ed - Blue Moon 
 
 

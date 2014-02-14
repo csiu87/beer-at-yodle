@@ -48,8 +48,8 @@ body {
   position: relative;
   cursor:pointer;
   float: left;
-  width: 33%;
-  height: 825px;
+  width: 33.3%;
+  height: 830px;
   color: white;
   background-size: cover;
   background-position: center;
@@ -57,20 +57,20 @@ body {
 }
 
 
-.voting p {
+.voting h3 {
   text-decoration: none; 
   font-size: 40px;
   text-align: center;
   font-family: Copperplate;
   position: absolute;
   top: 40%; 
-  left: 15%;
+  left: 10%;
 }
-.voting p.hover {
+.voting h3.hover {
   visibility: hidden;
 }
 
-.voting:hover p.hover {
+.voting:hover h3.hover {
   visibility: visible;
 }
 
@@ -155,7 +155,6 @@ body {
 
 .card.flip .back {
     z-index: 1000;
-    background: #80868d;
 
     -webkit-transform: rotateX(0deg) rotateY(0deg);
        -moz-transform: rotateX(0deg) rotateY(0deg);
@@ -178,14 +177,95 @@ body {
           transition: all 150ms ease-in-out;
 }
 
-#voting1 {
+#front1 {
   background-image: url('../images/voting1.jpg');
 }
 
-#voting2 {
+#front2 {
   background-image: url('../images/voting2.jpg');
 }
 
-#voting3 {
+#front3 {
   background-image: url('../images/voting3.jpg');
 }
+
+#back1 {
+  background-image: url('../images/argyle.png');
+}
+
+#back2 {
+  background-image: url('../images/dark_wood.png');
+}
+
+#back3 {
+  background-image: url('../images/crissXcross.png');
+}
+
+.beer-container {
+  font-family: Copperplate; 
+}
+
+.beer-container span {
+color: #B80000;
+}
+
+.beer-header {
+  margin: 100px 30px 30px;
+}
+
+.beer-header img {
+  height: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.beer-header h4 {
+  font-size: 26px;
+  text-align: center; 
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+
+.beer-description {
+  margin: 0px 40px;
+  height: 250px;
+}
+
+.beer-description p {
+  text-align: justify;
+  font-size: 16px;
+  line-height: 20px; 
+}
+
+.beer-style {
+  font-size: 18px; 
+  line-height: 20px;
+  margin: 0px 40px;
+}
+
+.vote-button {
+  padding: 20px 175px;
+}
+
+.submit-button {
+  font-weight: 700; 
+  letter-spacing: 2px; 
+  font-size: 20px; 
+  text-transform: uppercase; 
+  color: white;
+  background-color: #730000;
+  border-bottom: 5px solid #4F0000;
+  padding: 8px 35px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Copperplate;
+}
+
+.vote-button:hover {
+  opacity: .8;
+}
+
+
+
+

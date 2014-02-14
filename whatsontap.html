@@ -8,8 +8,6 @@
 <link rel="shortcut icon" href="images/favicon.png">
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
-<script src="js/date.js"></script>
-<script src="js/timer.js"></script>
 </head>
 
 <body>
@@ -19,39 +17,64 @@
      <ul class="wrapper">
         <li class="button"><a href="">WHAT'S ON TAP</a></li>
         <li class="button"><a href="beer.html">BEERS</a></li>
-        <li class="button"><a href="brewery.html">BREWERIES</a></li>
+        <li class="button"><a href="nicknames.html">NICKNAMES</a></li>
         <li class="button"><a href="voting.html">VOTING</a></li>
       </ul>
     </nav>
 </div>
 
 <section class="whatsontap">
-  <div>
-    <div class="beer" id="tap1" onclick="window.open('http://beeradvocate.com/beer/profile/764/2318/')"><p>BLUE POINT TOASTED LAGER</p>
-    </div>
-  </div>
+    <div class="beer">
+        <div class="card">
+            <div class="front gray beer" id="front1">
+                <h3 class="hover">BLUE POINT TOASTED LAGER</h3>
+            </div>
+            <div class="back" id="back1">
 
-  <div>
-   <div class="beer" id="tap2" onclick="window.open('http://beeradvocate.com/beer/profile/140/276/')"><p>SIERRA NEVADA PALE ALE</p>
+                <div class="beer-header">
+                  <h1><span>Blue Point Toasted Lager</span></h1>
+                  <p>Copper in color this brew is made from Six different malts including: English Pale, Crystal, Munich, Carapils, Wheat and Belgian Caravienna. Toasted Lager displays a balanced flavor of malt and hop which makes it easy drinking. Special lager yeast is used to produce that long lasting, smooth finish. The "toasted" part of the name refers to the direct-fire brew kettle; hot flames imparts a toasted flavor.</p>
+                  <div class="beer-stats">
+                  <div class="beer-style">
+                    <span>Style:</span> American Double/Imperial IPA
+                  </div>
+                  <div class="beer-style">
+                    <span>ABV:</span> 7.85%
+                  </div>
+                </div>
+              </div>
+
+            </div> <!-- back class -->
+        </div> <!-- card class -->
+    </div> <!-- beer class -->
+
+    <div class="beer">
+        <div class="card">
+            <div class="front gray beer" id="front2">
+                <h3 class="hover">SIERRA NEVADA PALE ALE</h3>
+            </div>
+            <div class="back" id="back2">
+
+                <div class="beer-header">
+                  <h1><span>SIERRA NEVADA PALE ALE</span></h1>
+                  <p>Pale Ale began as a home brewer's dream, grew into an icon, and inspired countless brewers to follow a passion of their own. Its unique piney and grapefruit aromas from the use of whole-cone American hops have fascinated beer drinkers for decades and made this beer a classic, yet it remains new, complex and surprising to thousands of beer drinkers every day. It is-as it always has been-all natural, bottle conditioned and refreshingly bold.</p>
+                  <div class="beer-stats">
+                  <div class="beer-style">
+                    <span>Style:</span> American Pale Ale
+                  </div>
+                  <div class="beer-style">
+                    <span>ABV:</span> 5.60%
+                  </div>
+                </div>
+              </div>
+
+            </div>
+        </div>
     </div>
-  </div>
+
 </section>
 
-<!-- 
-<footer class="footer">
-  <div class="wrapper">
-    <ul>
-      <li><a href="https://www.facebook.com/yodle"><img src="images/facebook.png"/></a>|</li>
-      <li><a href="https://twitter.com/yodle"><img src="images/twitter_bird.png"/></a>|</li>
-          <li><a href="http://www.linkedin.com/company/yodle"><img src="images/linkedin.png"/></a></li>
-         </ul>
-      </div>
-    </footer> -->
-
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-  <script src="js/main.js"></script>
-  <script src="js/plugins.js"></script>
+<script src="js/voting.js"></script>
 
 </body>
 </html>

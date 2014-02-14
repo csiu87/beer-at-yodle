@@ -1,0 +1,173 @@
+.nickname-body  { 
+  background: #005580 url("../images/hans.jpg") top center no-repeat fixed;
+  background-position: fixed;
+  background-color: #005580;
+}
+
+.nav {
+  position: fixed;
+  margin-top: 0px;
+  padding-top: 15px; 
+  z-index: 999;
+  right: 0;
+  background-color: black;
+  width: 100%;
+  opacity: .4;
+  font-size: 5px;
+}
+
+.nav ul {
+  float: right;
+}
+
+.nav ul li {
+  display: inline-block;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+.nav ul li {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: lighter;
+  letter-spacing: 3px;
+}
+
+.nav a {
+  color: white;
+  line-height: 30px; 
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.button {
+  display: block;
+  text-align: center; 
+  font-size: 24px;
+  padding-right: 2em; 
+}
+
+.nickname-wrapper {
+  margin: 100px 0px 0px 130px;
+}
+
+.card {
+    float: left;
+    margin-right: 60px;
+    margin-bottom: 20px;
+    height: 100%;
+    position: relative;
+    -webkit-perspective: 1000px;
+       -moz-perspective: 1000px;
+            perspective: 1000px;
+}
+
+.card .front {              
+    position: absolute;
+    z-index: 900;
+    width: inherit;
+    height: inherit;
+    border: 1px solid #ccc;
+    text-align: center;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.9);
+    background: #3A5919;
+    border: 3px solid #ddd;
+    width: 160px;
+    height: 160px;
+    padding: 3em;
+    color: white; 
+    float: left;
+    line-height: 32px; 
+    text-align: center; 
+    margin-top: 10px; 
+    transition: all .4s ease-in-out;
+    cursor:pointer;
+    background-color: #00256E;
+    background-size: cover;
+    opacity:.8;
+
+    -webkit-transform: rotateX(0deg) rotateY(0deg);
+       -moz-transform: rotateX(0deg) rotateY(0deg);
+            transform: rotateX(0deg) rotateY(0deg);
+
+    -webkit-transform-style: preserve-3d;
+       -moz-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+
+    -webkit-backface-visibility: hidden;
+       -moz-backface-visibility: hidden;
+            backface-visibility: hidden;
+
+    -webkit-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+}
+
+.card:hover .front {
+    z-index: 900;
+    border-color: #eee;
+    background: #333;
+    box-shadow: 0 15px 50px rgba(0,0,0,0.2);
+
+    -webkit-transform: rotateY(180deg);
+       -moz-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+}
+
+.card .back {
+    float: left;
+    position: relative;
+    z-index: 800;
+    width: inherit;
+    height: inherit;
+    border: 1px solid #ccc;
+    text-align: center;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.9);
+    background: #FF6600;
+    border: 3px solid #ddd;
+    width: 160px;
+    height: 160px;
+    padding: 3em;
+    color: white; 
+    float: left;
+    line-height: 32px; 
+    text-align: center; 
+    margin-top: 10px; 
+    transition: all .4s ease-in-out;
+    cursor:pointer;
+
+    -webkit-transform: rotateY(-180deg);
+       -moz-transform: rotateY(-179deg); /* setting to 180 causes an unnatural-looking half-flip */
+            transform: rotateY(-179deg);
+
+    -webkit-transform-style: preserve-3d;
+       -moz-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+
+    -webkit-backface-visibility: hidden;
+       -moz-backface-visibility: hidden;
+            backface-visibility: hidden;
+
+    -webkit-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;  
+}
+
+.card:hover .back {
+    z-index: 1000;
+
+    -webkit-transform: rotateX(0deg) rotateY(0deg);
+       -moz-transform: rotateX(0deg) rotateY(0deg);
+            transform: rotateX(0deg) rotateY(0deg);
+
+    box-shadow: 0 15px 50px rgba(0,0,0,0.2);
+}
+
+.hover {
+  font-size: 25px;
+  font-family: Copperplate;
+  margin-top: 30%;
+}
+
+
+
+
+
